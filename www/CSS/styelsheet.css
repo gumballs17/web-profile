@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    text-align: center;
+    color: #FFFF;
+    background-image: url('../images/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0px;
+    overflow: hidden;
+}
+
+.rounded-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: #031688;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+a {
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-content {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: justify;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.data-table td {
+    padding: 10px;
+}
