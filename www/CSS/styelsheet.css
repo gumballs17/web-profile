@@ -14,7 +14,7 @@ body {
     padding: 30px;
     text-align: center;
     color: #FFFF;
-    background-image: url('../images/bg.jpg');
+    background-image: url('https://storage.cloud.google.com/image-bucket-aebil/bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: 0px;
